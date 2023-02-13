@@ -1,0 +1,10 @@
+print("listák")
+lista = [5, 6, 11, 7, 9]
+print("A lista 0. indexének értéke--> ", lista[-2])
+print("A lista hossza: ",len(lista))
+print("A lista végére fűzök egy új elemet: ")
+lista.append(111)
+print(lista)
+print("A lista adott indexére beszúrok egy elemet:")
+lista.insert(2, 666)
+print(lista)
